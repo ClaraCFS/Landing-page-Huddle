@@ -1,0 +1,96 @@
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: #fff); }
+
+.corpo{
+    display: flex;
+}
+
+.titulo-pagina{
+    font-weight: 900;
+}
+
+.titulo-paragrafo{
+    font-weight: 700;
+}
+
+.texto {
+  justify-content: right;
+  max-width: 500px;
+  height: 500px;
+  margin: 50px;
+  margin-top: 200px;
+}
+
+.texto p{
+    font-weight: 500;
+    margin: 30px;
+}
+
+.registro{
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.registro:hover {
+    color: #fff;
+    background-color: purple;
+    cursor: pointer;
+  }
+
+.telas img{
+    width: 100%;
+    justify-content: left;
+    margin-top: 140px;
+}
+
+.redes{
+    display: flex;
+}
+
+.fa-brands{
+    position: relative;
+    justify-content: right;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-footer{
+    color: #fff;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      background: url("../images/bg-mobile.svg");
+    }
+  
+    .corpo {
+      flex-direction: column;
+    }
+  
+    .telas img {
+      width: 100%;
+    }
+  
+    .texto {
+      justify-content: right;
+      margin: 50px;
+      height: fit-content;
+    }
+  
+    .texto p {
+      margin: 0;
+    }
+  }
